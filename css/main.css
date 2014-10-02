@@ -204,12 +204,3 @@ body {
 
   text-indent: 100%;
 }
-
-
-
-
-.sales__details:hover .sales__details2{
-  opacity: 100;
-  top: -3em;
-}
-
