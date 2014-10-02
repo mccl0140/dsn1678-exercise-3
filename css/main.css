@@ -101,10 +101,12 @@ body {
   opacity: 0;
   background-color: #000;
   border-radius: 6px;
+  transition: all 250ms linear;
 }
 
 .sales__details[data-state="active"]{
   opacity: 1;
+  margin-top: 0;
 }
 
 .sales__details2{
@@ -116,10 +118,12 @@ body {
   opacity: 0;
   background-color: #000;
   border-radius: 6px;
+  transition: all 250ms linear;
 }
 
 .sales__details2[data-state="active"]{
   opacity: 1;
+  margin-top: 0;
 }
 
 .sales__details::before{
@@ -130,10 +134,10 @@ body {
   margin-left: 50%;
   position: absolute;
   width: 0;
-
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #000;
+
 }
 
 .sales__details2::before{
@@ -200,3 +204,12 @@ body {
 
   text-indent: 100%;
 }
+
+
+
+
+.sales__details:hover .sales__details2{
+  opacity: 100;
+  top: -3em;
+}
+
